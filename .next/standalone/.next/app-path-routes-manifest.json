@@ -1,0 +1,23 @@
+{
+  "/(layouts)/layout-1/page": "/layout-1",
+  "/(main)/administrasi/arsip/page": "/administrasi/arsip",
+  "/(main)/administrasi/pendukung/page": "/administrasi/pendukung",
+  "/(main)/administrasi/user/page": "/administrasi/user",
+  "/(main)/faq/page": "/faq",
+  "/(main)/keanggotaan/akurasi/page": "/keanggotaan/akurasi",
+  "/(main)/keanggotaan/data/page": "/keanggotaan/data",
+  "/(main)/keuangan/laporan/page": "/keuangan/laporan",
+  "/(main)/keuangan/mekanisme/page": "/keuangan/mekanisme",
+  "/(main)/kolaborasi/agenda/page": "/kolaborasi/agenda",
+  "/(main)/kolaborasi/disposisi/page": "/kolaborasi/disposisi",
+  "/(main)/kolaborasi/surat-dinas/page": "/kolaborasi/surat-dinas",
+  "/(main)/page": "/",
+  "/(main)/pelayanan/dana-kematian/page": "/pelayanan/dana-kematian",
+  "/(main)/pelayanan/dana-sosial/page": "/pelayanan/dana-sosial",
+  "/(main)/profil-layanan/page": "/profil-layanan",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/health/route": "/api/health",
+  "/favicon.ico/route": "/favicon.ico",
+  "/login/page": "/login"
+}

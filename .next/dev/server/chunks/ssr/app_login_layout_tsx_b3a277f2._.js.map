@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/fadhilfn04/Projects/Work/Outside/Telkom/Code/metronic-v9.4.5/metronic-tailwind-react-starter-kit/typescript/nextjs/app/login/layout.tsx"],"sourcesContent":["import { ReactNode } from 'react';\n\nexport default function LoginLayout({\n  children,\n}: {\n  children: ReactNode;\n}) {\n  return <>{children}</>;\n}\n"],"names":[],"mappings":";;;;;;AAEe,SAAS,YAAY,EAClC,QAAQ,EAGT;IACC,qBAAO;kBAAG;;AACZ"}}]
+}

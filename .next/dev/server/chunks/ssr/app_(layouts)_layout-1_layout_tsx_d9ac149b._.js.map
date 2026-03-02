@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/fadhilfn04/Projects/Work/Outside/Telkom/Code/metronic-v9.4.5/metronic-tailwind-react-starter-kit/typescript/nextjs/app/%28layouts%29/layout-1/layout.tsx"],"sourcesContent":["'use client';\n\nimport { Layout1 } from '@/components/layout';\nimport { ReactNode, useEffect, useState } from 'react';\n\nimport { ScreenLoader } from '@/components/screen-loader';\n\nexport default function Layout({children}: {children: ReactNode}) {\n  const [isLoading, setIsLoading] = useState(true);\n\n  useEffect(() => {\n    // Simulate short loading time\n    const timer = setTimeout(() => {\n      setIsLoading(false);\n    }, 1000); // 1 second loading time\n\n    return () => clearTimeout(timer);\n  }, []);\n\n  if (isLoading) {\n    return <ScreenLoader />;\n  }\n  \n  return (\n    <Layout1>\n      {children}\n    </Layout1>\n  );\n}\n"],"names":[],"mappings":";;;;;AAEA;AACA;AAEA;AALA;;;;;AAOe,SAAS,OAAO,EAAC,QAAQ,EAAwB;IAC9D,MAAM,CAAC,WAAW,aAAa,GAAG,IAAA,iNAAQ,EAAC;IAE3C,IAAA,kNAAS,EAAC;QACR,8BAA8B;QAC9B,MAAM,QAAQ,WAAW;YACvB,aAAa;QACf,GAAG,OAAO,wBAAwB;QAElC,OAAO,IAAM,aAAa;IAC5B,GAAG,EAAE;IAEL,IAAI,WAAW;QACb,qBAAO,8OAAC,+IAAY;;;;;IACtB;IAEA,qBACE,8OAAC,yIAAO;kBACL;;;;;;AAGP"}}]
+}

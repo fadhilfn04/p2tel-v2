@@ -1,0 +1,23 @@
+{
+  "/(layouts)/layout-1/page": "app/(layouts)/layout-1/page.js",
+  "/(main)/administrasi/arsip/page": "app/(main)/administrasi/arsip/page.js",
+  "/(main)/administrasi/pendukung/page": "app/(main)/administrasi/pendukung/page.js",
+  "/(main)/administrasi/user/page": "app/(main)/administrasi/user/page.js",
+  "/(main)/faq/page": "app/(main)/faq/page.js",
+  "/(main)/keanggotaan/akurasi/page": "app/(main)/keanggotaan/akurasi/page.js",
+  "/(main)/keanggotaan/data/page": "app/(main)/keanggotaan/data/page.js",
+  "/(main)/keuangan/laporan/page": "app/(main)/keuangan/laporan/page.js",
+  "/(main)/keuangan/mekanisme/page": "app/(main)/keuangan/mekanisme/page.js",
+  "/(main)/kolaborasi/agenda/page": "app/(main)/kolaborasi/agenda/page.js",
+  "/(main)/kolaborasi/disposisi/page": "app/(main)/kolaborasi/disposisi/page.js",
+  "/(main)/kolaborasi/surat-dinas/page": "app/(main)/kolaborasi/surat-dinas/page.js",
+  "/(main)/page": "app/(main)/page.js",
+  "/(main)/pelayanan/dana-kematian/page": "app/(main)/pelayanan/dana-kematian/page.js",
+  "/(main)/pelayanan/dana-sosial/page": "app/(main)/pelayanan/dana-sosial/page.js",
+  "/(main)/profil-layanan/page": "app/(main)/profil-layanan/page.js",
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/health/route": "app/api/health/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/login/page": "app/login/page.js"
+}

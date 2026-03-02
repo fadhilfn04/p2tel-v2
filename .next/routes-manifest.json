@@ -1,0 +1,170 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/administrasi/arsip",
+      "regex": "^/administrasi/arsip(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/administrasi/arsip(?:/)?$"
+    },
+    {
+      "page": "/administrasi/pendukung",
+      "regex": "^/administrasi/pendukung(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/administrasi/pendukung(?:/)?$"
+    },
+    {
+      "page": "/administrasi/user",
+      "regex": "^/administrasi/user(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/administrasi/user(?:/)?$"
+    },
+    {
+      "page": "/api/health",
+      "regex": "^/api/health(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/health(?:/)?$"
+    },
+    {
+      "page": "/faq",
+      "regex": "^/faq(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/faq(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/keanggotaan/akurasi",
+      "regex": "^/keanggotaan/akurasi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/keanggotaan/akurasi(?:/)?$"
+    },
+    {
+      "page": "/keanggotaan/data",
+      "regex": "^/keanggotaan/data(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/keanggotaan/data(?:/)?$"
+    },
+    {
+      "page": "/keuangan/laporan",
+      "regex": "^/keuangan/laporan(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/keuangan/laporan(?:/)?$"
+    },
+    {
+      "page": "/keuangan/mekanisme",
+      "regex": "^/keuangan/mekanisme(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/keuangan/mekanisme(?:/)?$"
+    },
+    {
+      "page": "/kolaborasi/agenda",
+      "regex": "^/kolaborasi/agenda(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kolaborasi/agenda(?:/)?$"
+    },
+    {
+      "page": "/kolaborasi/disposisi",
+      "regex": "^/kolaborasi/disposisi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kolaborasi/disposisi(?:/)?$"
+    },
+    {
+      "page": "/kolaborasi/surat-dinas",
+      "regex": "^/kolaborasi/surat\\-dinas(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kolaborasi/surat\\-dinas(?:/)?$"
+    },
+    {
+      "page": "/layout-1",
+      "regex": "^/layout\\-1(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/layout\\-1(?:/)?$"
+    },
+    {
+      "page": "/login",
+      "regex": "^/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login(?:/)?$"
+    },
+    {
+      "page": "/pelayanan/dana-kematian",
+      "regex": "^/pelayanan/dana\\-kematian(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pelayanan/dana\\-kematian(?:/)?$"
+    },
+    {
+      "page": "/pelayanan/dana-sosial",
+      "regex": "^/pelayanan/dana\\-sosial(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pelayanan/dana\\-sosial(?:/)?$"
+    },
+    {
+      "page": "/profil-layanan",
+      "regex": "^/profil\\-layanan(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/profil\\-layanan(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}
