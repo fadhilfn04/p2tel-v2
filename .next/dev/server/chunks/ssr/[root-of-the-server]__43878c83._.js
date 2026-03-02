@@ -162,7 +162,7 @@ const MOCK_USERS = [
     {
         id: '1',
         name: 'Admin User',
-        email: 'admin@koperasi.id',
+        email: 'admin@p2tel.or.id',
         password: 'admin123',
         role: 'admin',
         avatar: '/media/avatars/300-1.png'
@@ -170,7 +170,7 @@ const MOCK_USERS = [
     {
         id: '2',
         name: 'Staff User',
-        email: 'staff@koperasi.id',
+        email: 'staff@p2tel.or.id',
         password: 'staff123',
         role: 'user',
         avatar: '/media/avatars/300-2.png'

@@ -2,7 +2,11 @@
   "/(main)/faq/page": "app/(main)/faq/page.js",
   "/(main)/keanggotaan/akurasi/page": "app/(main)/keanggotaan/akurasi/page.js",
   "/(main)/keanggotaan/data/page": "app/(main)/keanggotaan/data/page.js",
+  "/(main)/kegiatan/page": "app/(main)/kegiatan/page.js",
   "/(main)/page": "app/(main)/page.js",
+  "/(main)/pelayanan/dana-kematian/page": "app/(main)/pelayanan/dana-kematian/page.js",
+  "/(main)/pelayanan/dana-sosial/page": "app/(main)/pelayanan/dana-sosial/page.js",
+  "/(main)/pelayanan/kesehatan/page": "app/(main)/pelayanan/kesehatan/page.js",
   "/(main)/profil-layanan/page": "app/(main)/profil-layanan/page.js",
   "/_not-found/page": "app/_not-found/page.js",
   "/login/page": "app/login/page.js"

@@ -19,3 +19,147 @@
 [00:05:02.017] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:05:18.886] Browser ERROR   Cannot update a component (`%s`) while rendering a different component (`%s`). To locate the bad setState() call inside `%s`, follow the stack trace as described in https://react.dev/link/setstate-in-render Router LoginPage LoginPage
 [00:05:20.111] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:08:45.234] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <div id="radix-_r_a..." aria-labelledby="radix-_r_a..." data-motion={null} data-orientation="horizontal" ...>
+      <MegaMenuSubAuth items={[...]}>
+        <div className="flex-col g...">
+          <div>
+          <MegaMenuFooter>
+            <div className="flex flex-...">
+              <div>
+              <NavigationMenuLink>
+                <NavigationMenuLink data-slot="navigation..." className="hover:bg-a...">
+                  <NavigationMenuCollectionItemSlot scope={undefined}>
+                    <NavigationMenuCollectionItemSlot.Slot data-radix-collection-item="" ref={function}>
+                      <NavigationMenuCollectionItemSlot.SlotClone data-radix-collection-item="" ref={function}>
+                        <Primitive.button asChild={true} ref={function} onKeyDown={function handleEvent} ...>
+                          <Primitive.button.Slot onKeyDown={function handleEvent} data-radix-collection-item="" ...>
+                            <Primitive.button.SlotClone onKeyDown={function handleEvent} data-radix-collection-item="" ...>
+                              <Primitive.a data-active={undefined} aria-current={undefined} data-slot="navigation..." ...>
+>                               <a
+>                                 data-active={undefined}
+>                                 aria-current={undefined}
+>                                 data-slot="navigation-menu-link"
+>                                 className="hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-a..."
+>                                 onClick={function handleEvent}
+>                                 onKeyDown={function handleEvent}
+>                                 data-radix-collection-item=""
+>                                 ref={function}
+>                               >
+                                  ...
+                                    <Slot.SlotClone data-slot="button" className={"cursor-p..."} ref={null}>
+                                      <LinkComponent href="https://ke..." target="_blank" data-slot="button" ...>
+>                                       <a
+>                                         target="_blank"
+>                                         data-slot="button"
+>                                         className={"cursor-pointer group focus-visible:outline-hidden inline-flex i..."}
+>                                         ref={function}
+>                                         onClick={function onClick}
+>                                         onMouseEnter={function onMouseEnter}
+>                                         onTouchStart={function onTouchStart}
+>                                         href="https://keenthemes.com/metronic"
+>                                       >
+
+[00:08:45.236] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[00:10:19.999] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:22.866] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:10:22.866] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:10:27.489] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[00:10:27.489] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
+[00:10:43.397] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:53.228] Server  LOG     ✓ Compiled in 570ms
+[00:10:53.777] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:57.770] Server  LOG     ✓ Compiled in 299ms
+[00:10:58.298] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:21.816] Server  LOG     ✓ Compiled in 432ms
+[00:11:22.422] Browser ERROR   ./components/layout/mega-menu.tsx:122:29
+Parsing ecmascript source code failed
+  120 |           </NavigationMenuContent>
+  121 |         </NavigationMenuItem>
+> 122 |       </NavigationMenuList> */}
+      |                             ^
+  123 |     </NavigationMenu>
+  124 |   );
+  125 | }
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/layout/mega-menu.tsx [Client Component Browser]
+    ./components/layout/header.tsx [Client Component Browser]
+    ./components/layout/main.tsx [Client Component Browser]
+    ./components/layout/index.tsx [Client Component Browser]
+    ./app/(main)/layout.tsx [Client Component Browser]
+    ./app/(main)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/layout/mega-menu.tsx [Client Component SSR]
+    ./components/layout/header.tsx [Client Component SSR]
+    ./components/layout/main.tsx [Client Component SSR]
+    ./components/layout/index.tsx [Client Component SSR]
+    ./app/(main)/layout.tsx [Client Component SSR]
+    ./app/(main)/layout.tsx [Server Component]
+[00:11:22.422] Browser ERROR   ./components/layout/mega-menu.tsx:122:30
+Parsing ecmascript source code failed
+  120 |           </NavigationMenuContent>
+  121 |         </NavigationMenuItem>
+> 122 |       </NavigationMenuList> */}
+      |                              ^^
+  123 |     </NavigationMenu>
+  124 |   );
+  125 | }
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./components/layout/mega-menu.tsx [Client Component Browser]
+    ./components/layout/header.tsx [Client Component Browser]
+    ./components/layout/main.tsx [Client Component Browser]
+    ./components/layout/index.tsx [Client Component Browser]
+    ./app/(main)/layout.tsx [Client Component Browser]
+    ./app/(main)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/layout/mega-menu.tsx [Client Component SSR]
+    ./components/layout/header.tsx [Client Component SSR]
+    ./components/layout/main.tsx [Client Component SSR]
+    ./components/layout/index.tsx [Client Component SSR]
+    ./app/(main)/layout.tsx [Client Component SSR]
+    ./app/(main)/layout.tsx [Server Component]
+[00:11:22.692] Server  LOG     ✓ Compiled in 184ms
+[00:11:23.127] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:26.849] Server  LOG     ✓ Compiled in 357ms
+[00:11:27.431] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:38.327] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:13:03.924] Server  LOG     ✓ Compiled in 396ms
+[00:13:04.552] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:08.458] Server  LOG     ✓ Compiled in 285ms
+[00:13:08.776] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:23.085] Server  LOG     ✓ Compiled in 98ms
+[00:13:31.972] Server  LOG     ✓ Compiled in 289ms
+[00:13:32.837] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:49.455] Server  LOG     ✓ Compiled in 96ms
+[00:14:06.235] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:14:57.250] Server  LOG     ✓ Compiled in 169ms
+[00:15:26.269] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:15:26.269] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:25:47.410] Server  LOG     ✓ Compiled in 185ms
+[00:25:47.438] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/auth.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:25:48.401] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:47.623] Server  LOG     ✓ Compiled in 113ms
+[00:28:02.047] Server  LOG     ✓ Compiled in 318ms
+[00:29:35.895] Server  LOG     ✓ Compiled in 1ms
+[00:30:08.669] Server  LOG     ✓ Compiled in 287ms
+[00:36:09.980] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:41:45.187] Server  LOG     ✓ Compiled in 106ms
+[00:46:05.852] Server  LOG     ✓ Compiled in 1249ms
+[00:46:48.354] Server  LOG     ✓ Compiled in 111ms
+[00:48:41.909] Server  LOG     ✓ Compiled in 229ms
+[00:50:01.585] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:50:01.591] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.

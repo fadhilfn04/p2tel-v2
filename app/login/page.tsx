@@ -69,10 +69,10 @@ export default function LoginPage() {
             </div>
 
             <h1 className="text-4xl font-bold mb-3">Sistem Informasi</h1>
-            <h2 className="text-2xl font-light mb-6">Koperasi Karyawan</h2>
+            <h2 className="text-2xl font-light mb-6">Perkumpulan Pensiunan Telkom</h2>
 
             <p className="text-lg text-blue-100 leading-relaxed">
-              Platform pengelolaan data anggota koperasi secara terpusat,
+              Platform pengelolaan data anggota pensiunan secara terpusat,
               aman, dan terstruktur.
             </p>
           </div>
@@ -117,7 +117,7 @@ export default function LoginPage() {
             <p className="text-gray-500 text-sm mt-1">
               {isRegister
                 ? 'Buat akun untuk mengakses sistem'
-                : 'Masuk ke sistem informasi koperasi'}
+                : 'Masuk ke sistem informasi perkumpulan'}
             </p>
           </div>
 
@@ -140,7 +140,7 @@ export default function LoginPage() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition"
-                placeholder="admin@koperasi.id"
+                placeholder="admin@p2tel.or.id"
               />
             </div>
 
@@ -211,8 +211,8 @@ export default function LoginPage() {
                 Akun Demo:
               </p>
               <div className="space-y-1 text-xs text-blue-700">
-                <p>Admin: admin@koperasi.id / admin123</p>
-                <p>Staff: staff@koperasi.id / staff123</p>
+                <p>Admin: admin@p2tel.or.id / admin123</p>
+                <p>Staff: staff@p2tel.or.id / staff123</p>
               </div>
             </div>
           )}

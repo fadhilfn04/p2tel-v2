@@ -14,7 +14,7 @@ export function SidebarHeader() {
 
   return (
     <div className="sidebar-header hidden lg:flex items-center relative justify-between px-3 lg:px-6 shrink-0">
-      <Link href="/layout-1">
+      <Link href="/">
         <div className="dark:hidden">
           <img
             src={toAbsoluteUrl('/media/app/default-logo.svg')}

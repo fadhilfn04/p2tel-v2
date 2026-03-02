@@ -119,8 +119,8 @@ export default function ProfilLayananPage() {
           <CardContent>
             <div className="space-y-3 text-sm text-gray-600 dark:text-gray-400">
               <p>
-                Koperasi Dana Kematian & Sosial berdiri sejak 2020 dengan visi
-                memberikan perlindungan finansial bagi anggota.
+                Perkumpulan Pensiunan Telkom berdiri dengan visi membantu dan
+                melindungi kesejahteraan para pensiunan Telkom serta keluarganya.
               </p>
               <div className="mt-4 p-4 bg-gray-50 dark:bg-gray-800 rounded-lg">
                 <h4 className="font-semibold mb-2 text-gray-900 dark:text-gray-100">
@@ -128,8 +128,8 @@ export default function ProfilLayananPage() {
                 </h4>
                 <ul className="space-y-1">
                   <li>📞 (021) 1234-5678</li>
-                  <li>📧 info@dks-koperasi.id</li>
-                  <li>📍 Jl. Merdeka No. 123, Jakarta</li>
+                  <li>📧 info@p2tel.or.id</li>
+                  <li>📍 Jl. Gatot Subroto No. 123, Jakarta</li>
                 </ul>
               </div>
             </div>

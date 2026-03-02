@@ -110,6 +110,15 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
   type __Unused = __Check
 }
 
+// Validate ../../app/(main)/kegiatan/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/kegiatan">> = Specific
+  const handler = {} as typeof import("../../app/(main)/kegiatan/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../app/(main)/keuangan/laporan/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/keuangan/laporan">> = Specific
@@ -177,6 +186,15 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
 {
   type __IsExpected<Specific extends AppPageConfig<"/pelayanan/dana-sosial">> = Specific
   const handler = {} as typeof import("../../app/(main)/pelayanan/dana-sosial/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../app/(main)/pelayanan/kesehatan/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/pelayanan/kesehatan">> = Specific
+  const handler = {} as typeof import("../../app/(main)/pelayanan/kesehatan/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check

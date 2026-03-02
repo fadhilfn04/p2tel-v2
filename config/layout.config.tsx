@@ -80,7 +80,14 @@ export const MENU_SIDEBAR: MenuConfig = [
     children: [
       { title: 'Dana Kematian', path: '/pelayanan/dana-kematian' },
       { title: 'Dana Sosial', path: '/pelayanan/dana-sosial' },
+      { title: 'Layanan Kesehatan', path: '/pelayanan/kesehatan' },
     ],
+  },
+  { heading: 'Kegiatan' },
+  {
+    title: 'Kegiatan & Acara',
+    icon: CalendarCheck,
+    path: '/kegiatan',
   },
   // { heading: 'Keuangan' },
   // {

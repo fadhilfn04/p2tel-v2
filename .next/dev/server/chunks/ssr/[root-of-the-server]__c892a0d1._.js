@@ -217,8 +217,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$auth$2e$tsx__$5b$app$
 ;
 const metadata = {
     title: {
-        template: '%s | Metronic',
-        default: 'Metronic'
+        template: '%s | P2Tel',
+        default: 'Sistem Informasi Pensiunan Telkom'
     }
 };
 async function RootLayout({ children }) {

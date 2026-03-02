@@ -587,7 +587,7 @@ function ProfilLayananPage() {
                                     className: "space-y-3 text-sm text-gray-600 dark:text-gray-400",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            children: "Koperasi Dana Kematian & Sosial berdiri sejak 2020 dengan visi memberikan perlindungan finansial bagi anggota."
+                                            children: "Perkumpulan Pensiunan Telkom berdiri dengan visi membantu dan melindungi kesejahteraan para pensiunan Telkom serta keluarganya."
                                         }, void 0, false, {
                                             fileName: "[project]/app/(main)/profil-layanan/page.tsx",
                                             lineNumber: 121,
@@ -615,14 +615,14 @@ function ProfilLayananPage() {
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            children: "📧 info@dks-koperasi.id"
+                                                            children: "📧 info@p2tel.or.id"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/(main)/profil-layanan/page.tsx",
                                                             lineNumber: 131,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            children: "📍 Jl. Merdeka No. 123, Jakarta"
+                                                            children: "📍 Jl. Gatot Subroto No. 123, Jakarta"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/(main)/profil-layanan/page.tsx",
                                                             lineNumber: 132,

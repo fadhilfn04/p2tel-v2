@@ -89,6 +89,12 @@
       "namedRegex": "^/keanggotaan/data(?:/)?$"
     },
     {
+      "page": "/kegiatan",
+      "regex": "^/kegiatan(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kegiatan(?:/)?$"
+    },
+    {
       "page": "/keuangan/laporan",
       "regex": "^/keuangan/laporan(?:/)?$",
       "routeKeys": {},
@@ -141,6 +147,12 @@
       "regex": "^/pelayanan/dana\\-sosial(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/pelayanan/dana\\-sosial(?:/)?$"
+    },
+    {
+      "page": "/pelayanan/kesehatan",
+      "regex": "^/pelayanan/kesehatan(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pelayanan/kesehatan(?:/)?$"
     },
     {
       "page": "/profil-layanan",

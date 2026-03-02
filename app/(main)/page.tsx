@@ -18,7 +18,7 @@ export default function HomePage() {
       <Toolbar>
         <ToolbarHeading>
           <ToolbarPageTitle>Dashboard</ToolbarPageTitle>
-          <ToolbarDescription>Sistem Informasi Dana Kematian & Sosial</ToolbarDescription>
+          <ToolbarDescription>Sistem Informasi Perkumpulan Pensiunan Telkom</ToolbarDescription>
         </ToolbarHeading>
       </Toolbar>
 

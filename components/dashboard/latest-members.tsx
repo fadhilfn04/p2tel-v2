@@ -33,23 +33,23 @@ export function LatestMembers({ members }: LatestMembersProps) {
                     {member.nama}
                   </p>
                   <Badge
-                    variant={member.status === 'aktif' ? 'primary' : 'secondary'}
+                    variant={member.status_anggota === 'aktif' ? 'primary' : 'secondary'}
                     className="text-xs"
                   >
-                    {member.status === 'aktif' ? 'Aktif' : 'Tidak Aktif'}
+                    {member.status_anggota === 'aktif' ? 'Aktif' : member.status_anggota === 'meninggal' ? 'Meninggal' : 'Tidak Aktif'}
                   </Badge>
                 </div>
                 <p className="text-xs text-gray-600 dark:text-gray-400">
-                  NIK: {member.nik}
+                  NIKAP: {member.nikap}
                 </p>
                 <p className="text-xs text-gray-600 dark:text-gray-400">
                   Bergabung: {formatDate(member.tanggalBergabung)}
                 </p>
               </div>
               <div className="ml-4 text-right">
-                {member.telepon && (
+                {member.nomor_kontak && (
                   <p className="text-xs text-gray-600 dark:text-gray-400">
-                    {member.telepon}
+                    {member.nomor_kontak}
                   </p>
                 )}
               </div>
